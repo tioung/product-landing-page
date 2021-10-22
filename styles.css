@@ -115,15 +115,21 @@ input:focus{
 }
 
 .info h2{
-    margin: 1em 0 0.3em;
     text-transform: uppercase;
-    /* padding: 0em; */
     background-color: #eaeaea;
     display: inline-block;
 }
 
 .info h3{
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    margin: 1.5em 0 0.3em;
+    /* color: red; */
+    text-transform: capitalize;
+    /* padding: 0em; */
+}
+
+.info ul li:first-child h3{
+    margin-top: 0.5em;
 }
 
 .info p{
